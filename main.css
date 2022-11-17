@@ -1,0 +1,402 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, input {
+    color: inherit;
+    font: inherit;
+    outline: none;
+    border: 0;
+}
+
+.none {
+    display: none !important;
+}
+
+.body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url(./img/svg/main-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    width: 1430px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding-top: 45px;
+    width: 1300px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+}
+
+.kosygina-logo {
+    display: flex;
+}
+
+.kosygina-logo__img {
+    margin-right: 14px;
+}
+
+.kosygina-logo__text {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav {
+    width: 685px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__item {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button {
+    color: #fff;
+    background-color: #0074FC;
+    border-radius: 10px;
+    padding: 10px 34px 13px 33px;
+}
+
+/* intro */
+
+.intro {
+    width: 1300px;
+    margin: 60px auto 0;
+}
+
+.intro-container {
+    width: 100%;
+    height: 280px;
+    background-image: url(./img/jpg/intro-bg.jpg);
+}
+
+.intro__title {
+    color: #fff;
+    width: 340px;
+    padding-top: 52px;
+    padding-left: 73px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.intro__subtitle {
+    margin: 50px auto 0;
+
+    color: rgba(0, 0, 0, 0.5);
+    width: 1000px;
+
+    font-weight: 300;
+    font-size: 16px;
+    
+    text-align: center;
+}
+
+/* Separation */
+
+.separation {
+    max-width: 1300px;
+    margin: 70px auto 55px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .separation__line {
+
+}
+
+.separation__dot {
+
+} */
+
+/* NEWS */
+
+.news {
+    width: 1300px;
+    margin: 0 auto 75px;
+}
+
+.news__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news__container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-block {
+    position: relative;
+    width: 688px;
+
+    background-color: #000;
+    border-radius: 35px;
+}
+
+.news-block__decoration{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.new-block-text {
+    width: 380px;
+    padding-top: 54px;
+    padding-left: 48px;
+
+    color: #fff;
+}
+
+.news-block__title {
+    color: rgba(255, 255, 255, 0.54);
+    font-weight: 600;
+    font-size: 24px;
+
+    margin-bottom: 45px;
+}
+
+.news-block__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+
+    margin-bottom: 14px;
+}
+
+.news-block__text {
+    width: 395px;
+
+    font-weight: 300;
+    font-size: 16px;
+
+    margin-bottom: 33px;
+}
+
+.news__img {
+    border-radius: 28px;
+}
+
+/* OnlineBooks */
+
+.onlinebooks {
+    width: 1300px;
+    margin: 0 auto 100px; 
+}
+
+.onlinebooks__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.onlinebooks-container {
+    width: 1300px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.onlinebooks-card {
+    width: 413px;
+}
+
+.onlinebooks-card-bg {
+    width: 413px;
+    height: 433px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #EDEDED;
+    border-radius: 35px;
+}
+
+.onlinebooks-card__img {
+    border-radius: 10px;
+}
+
+.onlinebooks-card__name {
+    width: 300px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.onlinebooks-card__authors {
+    width: 300px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 24px;
+
+    color: rgba(26, 26, 26, 0.3);
+    font-style: italic;
+}
+
+.onlinebooks-card__age {
+    font-weight: 300;
+    font-size: 24px;
+
+    color: rgba(26, 26, 26, 0.3);
+    font-style: italic;
+}
+
+/* registration */
+
+.registration {
+    width: 1430px;
+    height: 710px;
+    background-image: url(./img/jpg/registration-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form {
+    width: 510px;
+    height: 540px;
+
+    display: inline-flex;
+    flex-direction: column;
+    padding: 42px 77px 48px 77px;
+
+    background-color: #fff;
+    border-radius: 35px;
+}
+
+.registration-form__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.registration-form label {
+    font-weight: 700;
+    font-size: 16px;
+
+    margin-bottom: 18px;
+}
+
+.registration-form input {
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    height: 45px;
+
+    padding: 0 15px;
+
+    margin-bottom: 26px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #171818;
+    color: #fff;
+
+}
+
+.footer span {
+    display: flex;
+}
+
+.footer-container {
+    width: 1300px;
+    padding: 50px 65px 60px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block {
+    width: 367px;
+}
+
+.footer-block__title {
+    font-weight: 600;
+    font-size: 24px;
+
+    width: 367px;
+    padding-bottom: 6px;
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.footer-block-row {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block-socials {
+    margin-top: 28px;
+}
+
+.footer-block-socials > * + *{
+    margin-left: 20px;
+}
+
+.footer-block__label {
+    width: 190px;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.footer-block__text {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* .footer-block-socials__icon {
+
+} */
